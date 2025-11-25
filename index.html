@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUVRAJ TRADELINK - Wholesale Sanitary & Electrical Supplier, Jaipur</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apply smooth scrolling and a default font */
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom spinner utility */
+        .loader {
+            border-top-color: #f3f3f3;
+            border-left-color: #f3f3f3;
+            border-right-color: #fff;
+            border-bottom-color: #fff;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 antialiased text-gray-800">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-black text-amber-600 tracking-wider">
+                YUVRAJ TRADELINK
+            </h1>
+            <nav class="hidden md:flex space-x-8 text-gray-600 font-medium">
+                <a href="#products" class="hover:text-amber-600 transition duration-150">Products</a>
+                <a href="#services" class="hover:text-amber-600 transition duration-150">Services</a>
+                <a href="#contact" class="hover:text-amber-600 transition duration-150">Contact</a>
+                <a href="#inquiry-form-container" class="py-1 px-4 bg-amber-600 text-white rounded-lg shadow-md hover:bg-amber-700 transition duration-150">
+                    Get Quote
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-amber-50 pt-16 pb-20 md:pt-24 md:pb-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl sm:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                    Jaipur’s Leading <span class="text-amber-600">Wholesale Supplier</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                    Your trusted source for **Sanitary Plumbing** and **Electrical Essentials**.
+                    We stock genuine products for retailers, contractors, and builders across Rajasthan.
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a
+                        href="#inquiry-form-container"
+                        class="px-8 py-3 text-lg font-semibold text-white bg-amber-600 rounded-xl shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105"
+                    >
+                        Request Wholesale Price List
+                    </a>
+                    <a
+                        href="#products"
+                        class="px-8 py-3 text-lg font-semibold text-amber-600 bg-white border-2 border-amber-600 rounded-xl shadow-lg hover:bg-amber-50 transition duration-300 transform hover:scale-105"
+                    >
+                        View Our Catalog
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Focus Section -->
+        <section id="products" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-center text-gray-900 mb-12">
+                    Product Specializations
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Electrical -->
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-xl shadow-lg border-t-4 border-amber-500">
+                        <!-- Zap Icon (Lightning) SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-600 mb-4"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">Electrical Goods</h3>
+                        <p class="text-center text-gray-600 text-sm">
+                            Bulk supply of wires, cables, switches, switchgear, distribution boards, and all modern LED lighting solutions from top brands.
+                        </p>
+                    </div>
+                    <!-- Plumbing -->
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-xl shadow-lg border-t-4 border-emerald-500">
+                        <!-- Pipette Icon (Plumbing) SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600 mb-4"><path d="M7 21v-4"/><path d="M17 21v-4"/><path d="M17 14V3h-4V1h-4v2H7v11"/><path d="M12 21v-4"/></svg>
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">Sanitary & Plumbing</h3>
+                        <p class="text-center text-gray-600 text-sm">
+                            Faucets, premium sanitaryware, CPVC/UPVC pipes, bathroom fittings, and complete water supply systems.
+                        </p>
+                    </div>
+                    <!-- Brands -->
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-xl shadow-lg border-t-4 border-blue-500">
+                        <!-- CheckCircle Icon SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600 mb-4"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">100% Genuine Brands</h3>
+                        <p class="text-center text-gray-600 text-sm">
+                            We are authorized distributors ensuring only original, certified products for your projects and retail store.
+                        </p>
+                    </div>
+                    <!-- Logistics -->
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-xl shadow-lg border-t-4 border-purple-500">
+                        <!-- Truck Icon SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple-600 mb-4"><path d="M5 18H3c-1.1 0-2 .9-2 2v2h22v-2c0-1.1-.9-2-2-2h-2"/><path d="M5 18V9l-2 3"/><path d="M17 18V9l2 3"/><path d="M6 18h12V9H6v9zM6 9h12M10 13v-2M14 13v-2"/></svg>
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">Bulk Supply & Delivery</h3>
+                        <p class="text-center text-gray-600 text-sm">
+                            Specialist in bulk ordering and on-time delivery across Jaipur and surrounding regions for contractors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-center text-gray-900 mb-12">
+                    Our Wholesale Commitment
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="services-grid">
+                    <!-- Content will be injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Inquiry Form Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" id="inquiry-form-container">
+                <!-- Form will be rendered here by JS -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+                <h2 class="text-4xl font-extrabold text-center text-amber-400 mb-12">
+                    Find YUVRAJ TRADELINK
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center" id="contact-info-grid">
+                    <!-- Content will be injected by JS -->
+                </div>
+            </div>
+            <!-- Display User ID for debugging/management -->
+            <div class="text-center text-xs text-gray-500 mt-8">
+                Client Session ID: <span id="user-id-display">Authenticating...</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Container -->
+    <div id="modal-container"></div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
+            &copy; <span id="current-year"></span> YUVRAJ TRADELINK. All Rights Reserved. | Wholesale Supplier, Jaipur.
+        </div>
+    </footer>
+
+    <!-- Firebase and Application Logic -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+        // --- Global Variables (Provided by Canvas Environment) ---
+        // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDj-NcKF8fBSgcvN-zc16mLSLeDQLQrh-Q",
+  authDomain: "yuvraj-tradelink.firebaseapp.com",
+  projectId: "yuvraj-tradelink",
+  storageBucket: "yuvraj-tradelink.firebasestorage.app",
+  messagingSenderId: "522825430480",
+  appId: "1:522825430480:web:674698b952c66f667df5d5",
+  measurementId: "G-QQTE84M9C2"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+        // --- Firebase Globals ---
+        let db = null;
+        let auth = null;
+        let isAuthenticated = false;
+        let userId = null;
+
+        // --- Data & Constants ---
+        const ContactInfo = [{
+            Icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2 2h-3.47l-1.39-2.31a.88.88 0 0 0-.84-.33l-2.4 1.2a15.8 15.8 0 0 1-8.15-8.15l1.2-2.4a.88.88 0 0 0-.33-.84L2.08 6h3a2 2 0 0 1 2 2 15.8 15.8 0 0 0 8.15 8.15z"/></svg>',
+            text: "+91 9351846957",
+            href: "tel:+919351846957"
+        }, {
+            Icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>',
+            text: "yuvrajtradelink@example.com",
+            href: "mailto:yuvrajtradelink@example.com"
+        }, {
+            Icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>',
+            text: "Sanjay Nagar DCM Ajmer Road, Jaipur, Rajasthan",
+            href: "https://maps.app.goo.gl/YourMapLink"
+        }, ];
+
+        const Services = [{
+            Icon: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-600 flex-shrink-0 mt-1"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>',
+            title: "Electrical Wholesale",
+            description: "Bulk supply of wires, cables, switches, switchgear, distribution boards, and all modern LED lighting solutions."
+        }, {
+            Icon: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-600 flex-shrink-0 mt-1"><path d="M7 21v-4"/><path d="M17 21v-4"/><path d="M17 14V3h-4V1h-4v2H7v11"/><path d="M12 21v-4"/></svg>',
+            title: "Sanitary & Plumbing",
+            description: "Authorised dealer for premium sanitaryware, bathroom fittings, faucets, CPVC/UPVC pipes, and water management systems."
+        }, {
+            Icon: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-600 flex-shrink-0 mt-1"><path d="M5 18H3c-1.1 0-2 .9-2 2v2h22v-2c0-1.1-.9-2-2-2h-2"/><path d="M5 18V9l-2 3"/><path d="M17 18V9l2 3"/><path d="M6 18h12V9H6v9zM6 9h12M10 13v-2M14 13v-2"/></svg>',
+            title: "Logistics & Delivery",
+            description: "Reliable and prompt door-to-door delivery across Jaipur and surrounding regions for all bulk orders."
+        }, {
+            Icon: '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-amber-600 flex-shrink-0 mt-1"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><path d="M15 15v4m-6-4v4m3-4v4"/></svg>',
+            title: "B2B Project Supply",
+            description: "Specialized in supplying large-scale construction projects, builders, and corporate accounts with customized quotes."
+        }, ];
+
+        // --- Utility Functions ---
+
+        /** Renders a success or error modal. */
+        function renderModal(message) {
+            const isSuccess = message.includes("successfully");
+            const icon = isSuccess 
+                ? '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-emerald-600"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>' 
+                : '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600"><path d="M18 6L6 18"/><path d="M6 6l12 12"/></svg>';
+            
+            const colorClass = isSuccess ? 'bg-emerald-600 hover:bg-emerald-700' : 'bg-red-600 hover:bg-red-700';
+            const iconBg = isSuccess ? 'bg-emerald-100' : 'bg-red-100';
+
+            const modalHtml = `
+                <div id="message-modal" class="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center p-4 z-50 transition-opacity duration-300">
+                    <div class="bg-white rounded-lg shadow-2xl p-6 w-full max-w-sm text-center">
+                        <div class="mx-auto w-12 h-12 flex items-center justify-center rounded-full ${iconBg} mb-4">
+                            ${icon}
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">${isSuccess ? "Success!" : "Error!"}</h3>
+                        <p class="text-sm text-gray-600 mb-4">${message}</p>
+                        <button
+                            id="close-modal-btn"
+                            class="w-full px-4 py-2 text-white font-medium rounded-lg transition duration-150 ${colorClass}"
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            const container = document.getElementById('modal-container');
+            container.innerHTML = modalHtml;
+            
+            document.getElementById('close-modal-btn').onclick = () => {
+                container.innerHTML = ''; // Clear the modal
+            };
+        }
+
+
+        // --- Initialization and Core Logic ---
+
+        /** Initializes Firebase and signs in the user. */
+        async function initFirebase() {
+            if (!firebaseConfig) {
+                console.error("Firebase config not available. Leads cannot be saved.");
+                return;
+            }
+
+            try {
+                const app = initializeApp(firebaseConfig);
+                db = getFirestore(app);
+                auth = getAuth(app);
+
+                if (initialAuthToken) {
+                    await signInWithCustomToken(auth, initialAuthToken);
+                } else {
+                    await signInAnonymously(auth);
+                }
+                
+                isAuthenticated = true;
+                userId = auth.currentUser?.uid || crypto.randomUUID(); // Fallback to random ID if no auth
+                document.getElementById('user-id-display').textContent = userId;
+                console.log("Firebase authentication successful. User ID:", userId);
+
+            } catch (error) {
+                console.error("Firebase initialization or authentication failed:", error);
+                isAuthenticated = false;
+                userId = crypto.randomUUID();
+                document.getElementById('user-id-display').textContent = 'Error: Check console.';
+                renderModal("Error connecting to the backend. Form submission may fail. Please try again later.");
+            }
+        }
+        
+        /** Handles form submission to Firestore. */
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            
+            if (!isAuthenticated || !db || !userId) {
+                renderModal("Error: Database connection or user authentication not ready. Please try refreshing.");
+                return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span class="loader border-4 border-t-4 border-white h-5 w-5 rounded-full mr-3"></span> Submitting...';
+
+            const formData = {
+                name: form.name.value,
+                firmName: form.firmName.value,
+                phone: form.phone.value,
+                email: form.email.value,
+                productInterest: form.productInterest.value,
+                message: form.message.value,
+            };
+
+            // Firestore path for private lead storage
+            const collectionPath = `/artifacts/${appId}/users/${userId}/wholesale_leads`;
+            console.log("Saving lead to path:", collectionPath);
+
+            try {
+                await addDoc(collection(db, collectionPath), {
+                    ...formData,
+                    timestamp: serverTimestamp(),
+                    userId: userId,
+                    status: 'New Lead'
+                });
+                renderModal("Your wholesale quote request has been submitted successfully! We will contact you shortly on 9351846957.");
+                form.reset(); // Clear the form on success
+                form.phone.value = '91'; // Reset phone code
+            } catch (error) {
+                console.error("Error submitting lead:", error);
+                renderModal("Error submitting your request. Please check your network or contact us directly on 9351846957.");
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = 'Submit Inquiry';
+            }
+        }
+
+        /** Renders the Inquiry Form HTML and attaches the event listener. */
+        function renderInquiryForm() {
+            const formContainer = document.getElementById('inquiry-form-container');
+            const formHtml = `
+                <div class="bg-white p-8 rounded-xl shadow-2xl border border-gray-100" id="inquiry-form">
+                    <h2 class="text-3xl font-extrabold text-gray-900 mb-2 text-center">
+                        Request a Wholesale Price List
+                    </h2>
+                    <p class="text-center text-gray-600 mb-8">
+                        Connect with us for competitive bulk pricing and authorized dealership inquiries.
+                    </p>
+
+                    <form id="wholesale-inquiry-form" class="space-y-4">
+                        <!-- Name -->
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                            <input type="text" name="name" id="name" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500"/>
+                        </div>
+
+                        <!-- Firm Name -->
+                        <div>
+                            <label for="firmName" class="block text-sm font-medium text-gray-700">Firm / Company Name</label>
+                            <input type="text" name="firmName" id="firmName" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500"/>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <!-- Phone -->
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number (with Country Code)</label>
+                                <input type="tel" name="phone" id="phone" required value="91" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500"/>
+                            </div>
+
+                            <!-- Email -->
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                                <input type="email" name="email" id="email" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500"/>
+                            </div>
+                        </div>
+
+                        <!-- Product Interest -->
+                        <div>
+                            <label for="productInterest" class="block text-sm font-medium text-gray-700">Area of Interest (Plumbing, Electrical, or Both)</label>
+                            <select name="productInterest" id="productInterest" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500 bg-white">
+                                <option value="">-- Select --</option>
+                                <option value="Plumbing">Sanitary & Plumbing Items</option>
+                                <option value="Electrical">Electrical Goods & Components</option>
+                                <option value="Both">Both Plumbing & Electrical</option>
+                                <option value="Dealership">Dealership/Distribution Inquiry</option>
+                            </select>
+                        </div>
+
+                        <!-- Message -->
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Specific Requirements / Message</label>
+                            <textarea name="message" id="message" rows="3" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-md text-base font-medium text-white bg-amber-600 hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500 transition duration-150">
+                            Submit Inquiry
+                        </button>
+                    </form>
+                </div>
+            `;
+            formContainer.innerHTML = formHtml;
+            document.getElementById('wholesale-inquiry-form').addEventListener('submit', handleFormSubmit);
+        }
+
+        /** Renders dynamic sections like Services and Contact Info. */
+        function renderStaticSections() {
+            // Render Services
+            const servicesGrid = document.getElementById('services-grid');
+            servicesGrid.innerHTML = Services.map(service => `
+                <div class="flex items-start bg-white p-6 rounded-xl shadow-lg">
+                    ${service.Icon}
+                    <div class="ml-4">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">${service.title}</h3>
+                        <p class="text-gray-600">${service.description}</p>
+                    </div>
+                </div>
+            `).join('');
+
+            // Render Contact Info
+            const contactGrid = document.getElementById('contact-info-grid');
+            contactGrid.innerHTML = ContactInfo.map(item => `
+                <a
+                    href="${item.href}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="p-6 bg-gray-700 rounded-xl shadow-lg flex flex-col items-center space-y-3 hover:bg-gray-600 transition duration-150"
+                >
+                    <span class="w-8 h-8 text-amber-400">${item.Icon}</span>
+                    <p class="text-sm font-medium">${item.text}</p>
+                    <span class="text-xs text-gray-400 underline">Click to View</span>
+                </a>
+            `).join('');
+
+            // Update Footer Year
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        }
+
+        // --- Main Execution ---
+        window.onload = function() {
+            renderStaticSections();
+            renderInquiryForm();
+            initFirebase();
+        };
+
+    </script>
+</body>
+</html>
